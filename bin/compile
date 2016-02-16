@@ -26,7 +26,7 @@ if [ ! -f $CACHE_FILE ]; then
   
   echo "-----> Extracting ImageMagick from $BUILD_DIR/$IMAGE_MAGICK_FILE"
   if [ ! -f $BUILD_DIR/$IMAGE_MAGICK_FILE ]; then
-    echo "Error: Unable to download image magick" | indent
+    echo "Error: Unable to download ImageMagick" | indent
     ls $BUILD_DIR | indent
     exit 1;
   fi
