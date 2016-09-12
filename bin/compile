@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export `heroku config -s`
-
 indent() {
   sed -u 's/^/       /'
 }
